@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Portfolio</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main-page/main-page.css' %}">
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li><button class="change-color">Change Color</button></li>
+            <li><a href="{% url 'about_me' %}">About Me</a></li>
+            <li><a href="{% url 'software' %}">Software</a></li>
+            <li><a href="{% url 'communication' %}">Communication</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome</h1>
+        <p>I'd like to welcome you to my personal portfolio</p>
+        <p>Aizen Sosuke from Bleach</p>
+        <a href="https://hizliresim.com/4y8rswh"><img src="https://i.hizliresim.com/4y8rswh.jpeg" alt="Aizen with a flower" class="aizen-picture"></a>
+    </header>
+
+    <section>
+        <article class="about-me">
+            <h2>About Me</h2>
+            <p>Hello!!! You will learn about me more in this page, please press the button</p>
+            <a href="{% url 'about_me' %}">Learn more</a>
+        </article>
+    </section>
+
+    <section>
+        <article class="software">
+            <h2>Software</h2>
+            <p>This page will show you the software that I can use, please press the button</p>
+            <a href="{% url 'software' %}">Learn more</a>
+        </article>
+    </section>
+
+    <section>
+        <article class="communication">
+            <h2>Communication</h2>
+            <p>This page will show you the communication skills that I have, please press the button</p>
+            <a href="{% url 'communication' %}">Learn more</a>
+        </article>
+    </section>
+
+    <script src="{% static 'main-page/main-page.js' %}"></script>
+</body>
+</html>

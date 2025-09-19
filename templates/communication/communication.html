@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Communication</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'communication/communication.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+</head>
+<body>
+    <header>
+        <h1>Communication</h1>
+        <p>Hello!!!</p>
+        <p>Welcome to the Communication page.</p>
+    </header>
+
+    <section>
+        <p>Here are my social media accounts</p>
+        <ul>
+            <li><strong><a href="https://www.instagram.com/muh_kaya1/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></strong></li>
+            <li><strong><a href="https://x.com/MuhammetKY12" target="_blank"><i class="fab fab-x-twitter"></i>X X</a></strong></li>
+            <li><strong><a href="https://www.linkedin.com/in/muhammet-kaya-bb789035b/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></strong></li>
+            <li><strong><a href="https://github.com/KayaxcOff" target="_blank"><i class="fab fa-github"></i> GitHub</a></strong></li>
+            <li><strong><a href="https://www.reddit.com/user/KayaxcOn/" target="_blank"><i class="fab fa-reddit"></i> Reddit</a></strong></li>
+            <li><strong><a href="https://www.tiktok.com/@muhammetky12" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></strong></li>
+        </ul>
+    </section>
+
+    <section>
+        <strong><p>You can text to my e-mail</p></strong>
+
+        <form action="https://formspree.io/mzzrdqdv" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Don't forget send me message</p>
+        <p>&copy;-2025<br>Muhammet Kaya<br>All rights reserved.</p>
+    </footer>
+
+    {% load static %}
+    <script src="{% static 'communication/communication.js' %}"></script>
+</body>
+</html>

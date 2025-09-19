@@ -1,0 +1,122 @@
+header {
+    background-color: rgba(255, 105, 180, 0.3);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('https://i.hizliresim.com/fvz9mxa.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background-color: rgba(255, 105, 180, 0.3);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border-radius: 10px;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: rgba(255, 182, 193, 0.5);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgba(255, 182, 193, 0.5);
+}
+
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.navbar-nav:hover {
+    background-color: rgba(255, 182, 193, 0.5);
+    border-radius: 5px;
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(255, 182, 193, 0.5);
+    border-radius: 5px;
+}
+
+section {
+    background-color: rgba(255, 105, 180, 0.3);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.about-me {
+    background-color: rgba(255, 182, 193, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.software {
+    background-color: rgba(255, 182, 193, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.communication {
+    background-color: rgba(255, 182, 193, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: white;
+}
+
+.aizen-picture {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+
+.aizen-picture:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
